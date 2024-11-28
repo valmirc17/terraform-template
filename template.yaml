@@ -7,7 +7,7 @@ metadata:
   title: Terraform Module
   description: Create a new module for use with Terraform.io
 spec:
-  owner: github.com/proffalken
+  owner: github.com/valmirc17
   type: service
 
   # these are the steps which are rendered in the frontend with the form input
@@ -59,7 +59,7 @@ spec:
       name: Fetch Base
       action: fetch:template
       input:
-        url: https://github.com/proffalken/backstage-terraform-module/tree/main/templates/
+        url: https://github.com/valmirc17/terraform-template/tree/main/templates/
         values:
           name: ${{ parameters.name }}
           type: ${{ parameters.type }}
