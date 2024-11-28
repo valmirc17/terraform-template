@@ -20,6 +20,6 @@ metadata:
   description: ${{ values.description }}
 spec:
   type: internal
-  lifecycle: production
-  owner: matt@doics.co
+  lifecycle: experimental
+  owner: guest
   definition: "${{ values.description }}"
