@@ -8,5 +8,5 @@ metadata:
      github.com/project-slug: valmirc17/terraform-template
 spec:
   type: service
-  owner: guest
+  owner: guests
   lifecycle: experimental
